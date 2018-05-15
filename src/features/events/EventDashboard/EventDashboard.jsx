@@ -4,7 +4,7 @@ import EventList from "../EventList/EventList";
 import EventForm from "../EventForm/EventForm";
 import cuid from "cuid";
 
-const eventDashboard = [
+const eventsDashboard = [
   {
     id: "1",
     title: "Trip to Tower of London",
@@ -57,7 +57,7 @@ const eventDashboard = [
 
 class EventDashboard extends Component {
   state = {
-    events: eventDashboard,
+    events: eventsDashboard,
     isOpen: false,
     selectedEvent: null
   };
