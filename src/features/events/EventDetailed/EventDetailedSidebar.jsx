@@ -37,7 +37,7 @@ const EventDetailedSidebar = ({ attendees }) => {
                 </Item.Content>
               </Item>
             ))}
-        </List>
+        </List> 
       </Segment>
     </div>
   );
